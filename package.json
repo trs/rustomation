@@ -1,0 +1,15 @@
+{
+  "name": "rustomation",
+  "version": "0.0.1",
+  "main": "src/lib.js",
+  "types": "src/lib.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "yarn build",
+    "prepublish": "yarn build",
+    "build": "neon build --release"
+  },
+  "dependencies": {
+    "neon-cli": "^0.8.0"
+  }
+}
